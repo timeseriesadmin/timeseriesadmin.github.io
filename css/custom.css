@@ -1,0 +1,136 @@
+#header.alt .logo img {
+  width: 120px;
+}
+
+.image,
+.image img {
+  max-width: 100%;
+}
+
+/* 4 columns in features section */
+.features li {
+  width: calc(25% - 2em);
+}
+.features li:nth-child(4) {
+  margin-top: 0;
+}
+
+/* animations */
+.features .icon {
+  background: #fff;
+  transition: background .3s ease-in;
+}
+.features .icon:before {
+  background: #fff;
+}
+
+/* colors */
+.icon.style1 {
+  color: #02e5ff;
+}
+.features a:hover .icon.style1 {
+  background: #02e5ff;
+}
+.icon.style2 {
+  color: #02b8cc;
+}
+.features a:hover .icon.style2 {
+  background: #02b8cc;
+}
+.icon.style3 {
+  color: #018a99;
+}
+.features a:hover .icon.style3 {
+  background: #018a99;
+}
+.icon.style4 {
+  color: #015c66;
+}
+.features a:hover .icon.style4 {
+  background: #015c66;
+}
+
+/* gradients */
+body {
+  background-attachment: fixed;
+  background-color: #015c66;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), linear-gradient(45deg, #02e5ff, #015c66);
+}
+#main header.major h2:after {
+  background-color: #015c66;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(90deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(90deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), -ms-linear-gradient(90deg, #02e5ff, #015c66);
+  background-image: url("images/overlay.png"), linear-gradient(90deg, #02e5ff, #015c66);
+}
+
+/* adjust features icons */
+.features a,
+.features a .icon,
+.features a .icon:before {
+  cursor: pointer;
+}
+.features a {
+  display: block;
+  border: none;
+}
+.features button {
+  margin-bottom: 10px;
+}
+
+/* fix for FontAwesome 5.3 icons */
+.features .icon:before {
+  font-family: inherit;
+}
+
+.showcase .image {
+  display: block;
+}
+.showcase .image img {
+  display: inline-block;
+  max-height: 600px;
+  margin-bottom: -10px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+ul.showcase {
+  list-style: none;
+}
+.showcase li {
+  margin-bottom: 50px;
+}
+.showcase li:nth-child(6n),
+.showcase li:nth-child(6n+2) {
+  text-align: right;
+}
+.showcase li:nth-child(6n+1),
+.showcase li:nth-child(6n+4) {
+  text-align: center;
+}
+.showcase li:nth-child(6n+3),
+.showcase li:nth-child(6n+5) {
+  text-align: left;
+}
+.showcase .caption {
+  display: block;
+}
+.showcase .description {
+  max-width: 80%;
+  display: inline-block;
+}
+
+/* section specific CSS */
+#overview header.major {
+  margin-bottom: 0;
+}
+#download p.content {
+  text-align: center;
+  columns: auto;
+}
+#showcase p.content {
+  text-align: center;
+  columns: auto;
+}
