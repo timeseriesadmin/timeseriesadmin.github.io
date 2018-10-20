@@ -1,6 +1,6 @@
 {
     "name": "Time Series Admin",
-    "short_name": "IExplorer",
+    "short_name": "TS Admin",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
