@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://influx-explorer.github.io/categories/</loc>
+    <loc>https://timeseriesadmin.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://influx-explorer.github.io/</loc>
+    <loc>https://timeseriesadmin.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://influx-explorer.github.io/tags/</loc>
+    <loc>https://timeseriesadmin.github.io/</loc>
     <priority>0</priority>
   </url>
   
